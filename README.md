@@ -5,8 +5,6 @@
 		<h3>Документация</h3>
 		<h4>Всю документацию о проекте вы можете найти <a href = "documentation.pdf">здесь</a></h4>
 		<hr>
-		<h3>Jira</h3>
-		<h4>Наша <a href = "https://www.atlassian.com/ru/software/jira">Аgile-доска</a> в Jira</a></h4>
 		<h4>Примеры решения задач можно увидеть в <a href="https://colab.research.google.com/drive/1Jh_mwS2dF3HvwdRFIzZRMcY3_pU8OFlV?usp=sharing">Google Colab</a> </h4>
 		<hr>
 		<h3>Участники проекта</h3>
