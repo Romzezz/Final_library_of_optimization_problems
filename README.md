@@ -1,12 +1,12 @@
 <html>
 	<body>
-		<h2>Оптимизационные задачи в машинном обучении. <br> Проект № : .</h2>
+		<h2>Оптимизационные задачи в машинном обучении. <br> Проект № 9: Final library of optimization problems.</h2>
 		<hr>
 		<h3>Документация</h3>
 		<h4>Всю документацию о проекте вы можете найти <a href = "documentation.pdf">здесь</a></h4>
 		<hr>
 		<h3>Jira</h3>
-		<h4>Наша <a href = "">Аgile-доска</a> в < = "https://www.atlassian.com/ru/software/jira">Jira</a></h4>
+		<h4>Наша <a href = "https://www.atlassian.com/ru/software/jira">Аgile-доска</a> в Jira</a></h4>
 		<h3>Участники проекта</h3>
 		<h4>
 		<li>Белоцерковский Даниил - Менеджер проектa</li>
