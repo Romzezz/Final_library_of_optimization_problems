@@ -12,7 +12,7 @@ with open("README.md", "r") as readme_file:
 requirements = ["ipython>=6", "nbformat>=4", "nbconvert>=5", "requests>=2"]
 
 setup(
-    name="Final_library_of_optimization_tasks",
+    name="Final_library_of_optimization_problems",
     version="0.0.2",
     author="Daniil Belotserkovskiy",
     description="A package with optimization functions",
