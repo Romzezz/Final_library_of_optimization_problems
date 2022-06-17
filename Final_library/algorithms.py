@@ -18,7 +18,7 @@ import scipy.optimize
 from sympy.utilities.lambdify import implemented_function
 from IPython.display import display, HTML
 from scipy.optimize import line_search, fmin, linprog
-from sklearn.linear_model import LogisticRegression
+from sklearn.linear_model import LogisticRegression, LinearRegression
 from sklearn.datasets import make_classification, make_blobs
 from sklearn.model_selection import train_test_split
 from sklearn.svm import SVC
