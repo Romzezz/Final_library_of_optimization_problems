@@ -4,7 +4,7 @@
 # In[2]:
 
 
-import utils
+from Final_library import utils
 import sympy as sp
 import sympy
 import matplotlib.pyplot as plt
