@@ -5,7 +5,7 @@
 		<h3>Документация</h3>
 		<h4>Всю документацию о проекте вы можете найти <a href = "documentation.pdf">здесь</a></h4>
 		<hr>
-		<h4>Примеры решения задач можно увидеть в <a href="[https://colab.research.google.com/drive/1gQXyXu1Y0wcQo0TwFGt4vw5UjqhAgTJJ?usp=sharing](https://colab.research.google.com/drive/1gQXyXu1Y0wcQo0TwFGt4vw5UjqhAgTJJ?usp=sharing)">Google Colab</a> </h4>
+		<h4>Примеры решения задач можно увидеть в <a href="https://colab.research.google.com/drive/1gQXyXu1Y0wcQo0TwFGt4vw5UjqhAgTJJ?usp=sharing">Google Colab</a> </h4>
 		<hr>
 		<h3>Участники проекта</h3>
 		<h4>
