@@ -83,25 +83,6 @@ def extremas_searching():
     return stationary_points
 
 
-# In[6]:
-
-
-extremas_searching()
-
-
-# In[5]:
-
-
-extremas_searching()
-
-
-# In[3]:
-
-
-# 2---------------------------------------------------------
-
-
-# In[4]:
 
 
 def golden_ratio(func, bounds, accuracy=10e-5, max_iter=500, show_interim_results=False, show_convergency=False, return_data=False):
@@ -532,17 +513,6 @@ def univariate_estimation(compare=False):
             )
 
 
-# In[12]:
-
-
-univariate_estimation()
-
-
-# In[18]:
-
-
-univariate_estimation(compare=True)
-
 
 # In[9]:
 
@@ -943,18 +913,6 @@ def gradient_descent():
                                          data['epsilon'], data['show_history'], data['visualize'])[0]
 
 
-# In[16]:
-
-
-compare_gd()
-
-
-# In[18]:
-
-
-gradient_descent()
-
-
 # In[1]:
 
 
@@ -1130,16 +1088,6 @@ def inner_point():
     return opt.x
 
 
-# In[18]:
-
-
-inner_point()
-
-
-# In[19]:
-
-
-inner_point()
 
 
 # In[18]:
@@ -1283,36 +1231,6 @@ def compare_classification(X_train, y_train, X_test, y_test, regularization=None
                                    cells=dict(values=values))])
     fig.show()
 
-
-# In[26]:
-
-
-X, y = make_classification(n_samples=1000, n_features=2, n_redundant=0)
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
-
-
-# In[27]:
-
-
-logistic_regression(X_train, y_train, X_test, y_test, regularization='l1', visualize=True)
-
-
-# In[28]:
-
-
-svm(X_train, y_train, X_test, y_test, visualize=True)
-
-
-# In[29]:
-
-
-compare_classification(X_train, y_train, X_test, y_test, regularization='l1')
-
-
-# In[5]:
-
-
-# 7-----------------------------------------------------
 
 
 # In[6]:
@@ -1676,19 +1594,4 @@ def SVM_SGD(X, Y, X_new, C=0.1, plot=False):
 
     return {'W': W, 'b': b, 'Y_new': Y_new}
 
-
-# In[27]:
-
-
-X, Y = make_blobs(n_samples=1000, centers=2, random_state=0, cluster_std=0.60)
-Y[Y==0] = -1
-X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.2)
-plt.scatter(X[:, 0], X[:, 1], c=Y)
-plt.show()
-
-
-# In[29]:
-
-
-res = SVM_SGD(X_train, Y_train, X_test, C=0.1, plot=True)
 
